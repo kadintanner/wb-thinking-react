@@ -3,7 +3,6 @@ import formatCurrency from '../utils/formatCurrency.js'
 
 const RateCell = ({ isEditing, value, onValueChange }) => {
 
-
   return isEditing ? (
    <td>
       <input 

@@ -4,11 +4,11 @@ const DescriptionCell = ({ isEditing, value, onValueChange }) => {
 
   return isEditing ? (
     <td>
-        <input 
-        type="text" 
+      <input
+        type="text"
         value={value}
         onChange={(e) => onValueChange(e.target.value)}
-        />
+      />
     </td>
   ) : (
     <td>{value}</td>
